@@ -1,0 +1,23 @@
+# Anti-brick universal properties
+ro.antibrick.enabled=true
+ro.antibrick.version=4.0
+ro.antibrick.universal=true
+ro.antibrick.block_writes=true
+ro.antibrick.monitor_modules=true
+persist.antibrick.watchdog=active
+
+# Disable panic reboot (all Android versions)
+ro.config.hw_quickpoweron=false
+persist.sys.reboot_on_panic=0
+ro.vendor.perf.scroll_opt=false
+
+# Block OEM unlock from apps
+ro.oem_unlock_supported=0
+sys.oem_unlock_allowed=0
+
+# Persist protection across reboots
+persist.sys.antibrick.active=1
+
+# SoC specific optimizations
+ro.antibrick.soc=$SOC
+ro.antibrick.partition_scheme=$PARTITION_SCHEME

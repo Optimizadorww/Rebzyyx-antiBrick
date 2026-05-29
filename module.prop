@@ -1,0 +1,7 @@
+id=antibrick_guardian_universal
+name=Anti-Brick Guardian Universal BETA!
+version=v4.0
+versionCode=40
+author=Rebzyyx
+description=Universal anti-brick. Works on SD/MTK/Unisoc. Android 8-16. Blocks partition writes, module conflicts, bootloops.
+api=26-36
